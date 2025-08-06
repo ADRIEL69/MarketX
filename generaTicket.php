@@ -62,7 +62,7 @@
 		    include(dirname('__FILE__').'/ticket.php');
 		    $html = ob_get_clean();
 
-			// instantiate and use the dompdf class
+			// instantiate and use the domp class
 			$dompdf = new Dompdf();
 
 			$dompdf->loadHtml($html);
