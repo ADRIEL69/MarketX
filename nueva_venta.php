@@ -27,6 +27,52 @@
       border-radius: 5px;
       border: none;
   }
+
+  .table_venta thead th {
+      background-color: #05817D !important;
+      color: white;
+      padding: 10px;
+      text-align: center;
+  }
+
+	/* Página actual seleccionada */
+	.paginador li.pageSelected {
+		background-color: #05817D;
+		color: white;
+		border: none;
+		padding: 5px 10px;
+		font-weight: bold;
+	}
+
+	/* Estilo de los números de página */
+	.paginador li a {
+		color: #05817D;
+		padding: 5px 10px;
+		text-decoration: none;
+		border: 1px solid #ccc;
+		display: inline-block;
+		transition: background 0.3s, color 0.3s;
+	}
+
+	/* Hover sobre los números */
+	.paginador li a:hover {
+		background-color: #05817D;
+		color: white;
+		border: 1px solid #05817D;
+	}
+
+	/* Íconos de FontAwesome dentro de la paginación */
+	.paginador li a svg {
+		fill: #05817D;
+		transition: fill 0.3s;
+	}
+
+	/* Cambiar color de íconos al pasar el mouse */
+	.paginador li a:hover svg {
+		fill: white;
+	}
+</style>
+
 </style>
 
 
