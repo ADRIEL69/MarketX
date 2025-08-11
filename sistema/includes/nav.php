@@ -72,5 +72,9 @@
 					</ul>
 				</li>
 
+				<li>
+					<a href="camara_funcional.php"><i class="fas fa-qrcode"></i> Escáner</a>
+				</li>
+
 			</ul>
 		</nav>
